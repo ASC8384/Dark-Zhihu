@@ -8,7 +8,7 @@
 
 ## 更新日志
 
-[CHANGELOG]()
+[CHANGELOG](https://github.com/ASC8384/Dark-Zhihu/blob/master/CHANGELOG.MD)
 
 ## 贡献者
 
