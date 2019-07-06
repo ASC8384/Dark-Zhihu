@@ -5,10 +5,8 @@
 ** Author       ASC_8384
 ** Mail         ASC_8384@foxmail.com
 */
-
-@-moz-document url-prefix("https://www.zhihu"), url-prefix("https://zhuanlan.zhihu")
-{
-  .unread,
+@-moz-document url-prefix("https://www.zhihu"), url-prefix("https://zhuanlan.zhihu") {
+.unread,
 .highlight,
 .Messages-newItem,
 .PushNotifications-newItem,
@@ -23,54 +21,39 @@
 .Menu-dropdown,
 .Messages-item:hover,
 .PushNotifications-newItem,
-.CommentList-dividerText,
-.CommentList-action
-  {
-    background: #444!important;
-  }
 
-  .VoteButton,
-.LikeButton/* ĞÂ°æµãÔŞ°´Å¥ */
-  {
+.VoteButton,
+.LikeButton/* æ–°ç‰ˆç‚¹èµæŒ‰é’® */
+{
     background: #222!important;
-    border: 1px solid #3B6092 !important;
-  }
-
-  .Button.is-active
-  {
-    background: #3B6092 !important;
-  }
-
-  .AppHeader-navItem.is-active
-  {
-    color: #CCC!important;
-  }
-
-  .HomeEntry-box,
-.editable
-  {
+    border: 1px solid #3B6092 !important
+}
+.Button.is-active {
+    background: #3B6092 !important
+}
+.AppHeader-navItem.is-active {
+    color: #CCC!important
+}
+.HomeEntry-box,
+.editable {
     border: 1px solid #fff;
-  }
-
-  img[eeimg="1"],
-.ColumnEnd-icon
-  {
+}
+img[eeimg="1"],
+.ColumnEnd-icon {
     filter: invert(100%);
-  }
+}
 
-/* ¹«Ê½Í¼·´É« */
+/* å…¬å¼å›¾åè‰² */
 
-/* ÉîÀ¶µ×±êÇ© */
-  .QuestionTopic,
+/* æ·±è“åº•æ ‡ç­¾ */
+.QuestionTopic,
 .TopicTag,
 .Comments-Packup-Button,
-.CommentEditor-singleButton
-  {
+.CommentEditor-singleButton {
     color: #fff!important;
     background: #3B6092!important;
-  }
-
-  .entry-title,
+}
+.entry-title,
 strong,
 .HomeEntry-box,
 .block-title span,
@@ -81,12 +64,12 @@ strong,
 .ng-valid,
 .info-content,
 
-/* Õë¶ÔĞÂ°æÖ÷Ò³ */
+/* é’ˆå¯¹æ–°ç‰ˆä¸»é¡µ */
 .zu-top,
 .current .zu-top-nav-link,
 .AppHeader,
 .Tabs-link,
-.CommentList,
+
 .Pagination,
 .PaginationButton,
 .Input-wrapper,
@@ -136,10 +119,10 @@ strong,
 /* Live */
 .title,
 
-/* ÎÄÕÂ±à¼­Æ÷ */
+/* æ–‡ç« ç¼–è¾‘å™¨ */
 .zg-editor-input,
 
-/* Ë½ĞÅ */
+/* ç§ä¿¡ */
 .menu-nav a,
 .item,
 .module-header,
@@ -147,21 +130,21 @@ strong,
 .items-fulid,
 .global-footer,
 
-/* Ô²×À */
+/* åœ†æ¡Œ */
 .SearchTabs,
 .TopSearch-items a,
 
-/* ĞÂ°æËÑË÷ */
+/* æ–°ç‰ˆæœç´¢ */
 .Post-content,
 .Recommendations-Main,
 .Sticky,
 .Comments,
 .BlockTitle,
 
-/* ĞÂ°æ×¨À¸ */
+/* æ–°ç‰ˆä¸“æ  */
 .Input,
 
-/* ºóÃæÕâĞ©´úÂë²»¼ÇµÃÊÇÓÃµÄË­µÄÁË _(:§Ù¡¹¡Ï)_ */
+/* åé¢è¿™äº›ä»£ç ä¸è®°å¾—æ˜¯ç”¨çš„è°çš„äº† _(:Ğ·ã€âˆ )_ */
 .zm-editable-toolbar-container,
 #zu-distraction-free-editor,
 .goog-toolbar,
@@ -205,50 +188,37 @@ li.tab-nav.active .anchor,
 .goog-menu.goog-menu-vertical,
 li.tab-nav:nth-child(1) > a:nth-child(1),
 a.active,
-.zm-side-nav-link:hover
-  {
+.zm-side-nav-link:hover {
     background: none #222!important;
     color: #ddd!important;
-  }
-
-  .badge-summary *,
+}
+.badge-summary *,
 .AuthorInfo-badge,
-blockquote
-  {
+blockquote {
     color: #aaa!important;
-  }
-
-  .modal-dialog-bg
-  {
+}
+.modal-dialog-bg {
     background: rgba(0, 0, 0, .8)!important;
-  }
-
-  .zu-top-nav-live > *
-  {
+}
+.zu-top-nav-live > * {
     background: #222!important;
-  }
-
-  .name,
-.zm-item-answer-author-wrap a
-  {
+}
+.name,
+.zm-item-answer-author-wrap a {
     color: #ff8000!important;
-  }
-
-  .zm-favo-list-item-title,
-.ng-binding
-  {
+}
+.zm-favo-list-item-title,
+.ng-binding {
     color: #bbb!important;
-  }
-
-  .zg-btn-white.zu-button-more,
+}
+.zg-btn-white.zu-button-more,
 .zu-autocomplete-row-search-link,
 .load-more:HOVER,
 .lbl,
 .zg-form-text-input.add-question-title-form,
 #zh-question-suggest-title-content,
 .zu-question-suggest-topic-input.label-input-label,
-.ac-row
-  {
+.ac-row {
     background: none#222!important;
     color: #bbb!important;
     border-left-color: #000!important;
@@ -256,125 +226,103 @@ blockquote
     border-bottom-color: #000!important;
     border-top-color: #000!important;
     margin-top: 0px!important;
-  }
-
-  .up.pressed,
-.down.pressed
-  {
+}
+.up.pressed,
+.down.pressed {
     background: none#444!important;
     color: #bbb!important;
-  }
-
-  .zu-top-add-question,
+}
+.zu-top-add-question,
 .content-wrap,
 .question-title,
 .content,
 .modal-dialog.absolute-position,
-.modal-dialog-title.modal-dialog-title-draggable
-  {
+.modal-dialog-title.modal-dialog-title-draggable {
     background: none#222!important;
     color: #bbb!important;
-  }
-
-  .ac-row.ac-active.active
-  {
-    background-color: #222!important;
-  }
-
-  .zu-autocomplete-row-name,
-.zm-ac-link
-  {
-    color: white!important;
-  }
-
-  .global-header,
-.qr
-  {
+}
+.ac-row.ac-active.active {
+    background-color: #222!important
+}
+.zu-autocomplete-row-name,
+.zm-ac-link {
+    color: white!important
+}
+.global-header,
+.qr {
     visibility: hidden!important;
-  }
+}
 }
 
-@-moz-document url-prefix("https://zhuanlan.zhihu")
-{
+@-moz-document url-prefix("https://zhuanlan.zhihu") {
 /*
-** ×¨À¸
+** ä¸“æ 
 */
 
-/*×¨À¸ÔÄ¶ÁÊ±µÄÁõº£*/
-  .ColumnPageHeader-Wrapper
-  {
+/*ä¸“æ é˜…è¯»æ—¶çš„åˆ˜æµ·*/
+.ColumnPageHeader-Wrapper {
     background: #222;
-  }
+}
 
-/*×¨À¸½éÉÜ*/
-  .ColumnHeader
-  {
+/*ä¸“æ ä»‹ç»*/
+.ColumnHeader {
     background-color: #222;
     color: #dddddd;
-  }
+}
 
-/*×îĞÂÎÄÕÂ*/
-  .Column-ArticleList .SectionTitle
-  {
+/*æœ€æ–°æ–‡ç« */
+.Column-ArticleList .SectionTitle {
     color: #dddddd;
     background-color: #222;
-  }
+}
 
-/*ÎÄÕÂ¼ò½é*/
-  .Column-ArticleList
-  {
+/*æ–‡ç« ç®€ä»‹*/
+.Column-ArticleList {
     color: #dddddd;
     background-color: #222;
-  }
+}
 
-/*¼ò½éÎÄ×Ö*/
-  .RichContent-inner
-  {
-    color: #838383;
-  }
+/*ç®€ä»‹æ–‡å­—*/
+.RichContent-inner {
+    color: #838383
+}
 
-/*ÔÄ¶ÁÈ«ÎÄ*/
-  .ArticleItem-Excerpt-more
-  {
+/*é˜…è¯»å…¨æ–‡*/
+.ArticleItem-Excerpt-more {
     color: #98B3CB !important;
-  }
+}
 
-/*ÏÂÒ»Æª*/
-  .NextArticle-Next,
-.NextArticle-Title
-  {
+/*ä¸‹ä¸€ç¯‡*/
+.NextArticle-Next,
+.NextArticle-Title {
     color: #576176;
-  }
+}
 
-/*×¨À¸Ãû*/
-  .ColumnPageHeader-TitleColumn
-  {
+/*ä¸“æ å*/
+.ColumnPageHeader-TitleColumn {
     color: #DEEBEA;
-  }
+}
 
-/* ÍÆ¼öÔÄ¶Á */
-  .PostItem,
+/* æ¨èé˜…è¯» */
+.PostItem,
 .PostItem-Title,
-.PostItem-Summary
-  {
+.PostItem-Summary {
     color: #ddd!important;
     background: #444!important;
-  }
-
-/*Ô¤ÀÀ*/
-  li.ArticleItem
-  {
-    background: #282828;
-  }
 }
 
-@-moz-document url-prefix("https://www.zhihu")
-{
+/*é¢„è§ˆ*/
+li.ArticleItem {
+    background: #282828;
+}
+}
+
+@-moz-document url-prefix("https://www.zhihu") {
 /*
-** Ö÷Ò³
+** ä¸»é¡µ
 */
 
-/*Ò³½Å*/
+/*é¡µè„š*/
 
 /*
 .Footer {
@@ -382,7 +330,7 @@ blockquote
 }
 */
 
-/*Ïà¹ØÍÆ¼ö*/
+/*ç›¸å…³æ¨è*/
 
 /*
 div.Card-header.RelatedCommodities-title,
@@ -391,121 +339,159 @@ div.Card-section.RelatedCommodities-list {
 }
 */
 
-/*ÊÕ²Ø¡¢ÎÊÌâ¡¢ÑûÇëµÄ¸ßÁÁ*/
-  .GlobalSideBar-navNumber
-  {
+/*æ”¶è—ã€é—®é¢˜ã€é‚€è¯·çš„é«˜äº®*/
+.GlobalSideBar-navNumber {
     background: #222;
-  }
-
-/*¸ü¶à»Ø´ğµÄµ×É«¸ßÁÁ*/
-  .MoreAnswers .List-headerText
-  {
-    background: #222;
-  }
-
-/*»°Ìâµ×É«*/
-  .Topic-bar
-  {
-    background-color: #222;
-  }
-
-/*»°Ìâ¹ã³¡*/
-  div.topics-plaza
-  {
-    background: #222;
-  }
-
-/*ÑûÇë»Ø´ğÎÊÌâµ×É«*/
-  .Notification-white
-  {
-    color: #ddd;
-    background: #444444;
-  }
-
-/*ÏûÏ¢ÌáĞÑ*/
-  .PushNotifications-item
-  {
-    color: #ccc;
-  }
-
-/*Î¯ÍĞÁõ¿´É½ÑûÇë*/
-  .AutoInviteItem-wrapper--desktop
-  {
-    background: #212121;
-  }
-
-  h2.ContentItem-title
-  {
-    color: #ccc;
-  }
-
-/*·´¶Ô*/
-  .VoteDownReasonMenu-container
-  {
-    background: black;
-  }
-
-  .VoteDownReasonMenu-reason
-  {
-    background: #292929;
-  }
-
-/*ÓÒÏÂ½ÇÄÇÉ¶ÍæÒâ¶ù, ÊÕ²Ø¡¢ÎÊÌâ¡¢ÑûÇëÊó±ê»¬¶¯µ×É«*/
-  .GlobalSideBar-navLink:hover,
-.GlobalSideBar-navNumber
-  {
-    background: #333 !important;
-  }
-
-/*Òò×÷ÕßÉèÖÃ£¬ÆÀÂÛÒÑ¹Ø±Õ*/
-  .Comments-disabledText
-  {
-    background: #333;
-  }
-
-/*ÔÄ¶ÁÈ«ÎÄ£¬ÏÔÊ¾È«²¿*/
-  .ContentItem-more,
-a.toggle-expand
-  {
-    color: #98B3CB;
-  }
-
-/*»°Ìâ£¬Ğ¡¿ò¿ò*/
-  .Tag-content
-  {
-    color: #aaaaaa;
-  }
-
-/*ÎÊÌâ±êÌâ*/
-  h2.zm-item-title a,
-h2.ContentItem-title a
-  {
-    color: #D5CDCD !important;
-  }
-
-/*Ê×Ò³Í·²¿ÉÏµÄÌáÎÊ¡¢Ïë·¨¡¢ÎÄÕÂ£¬ÓÒ²àµÄÒ»ÁĞ¶«Î÷*/
-  .TopstoryHeader,
-div.Card
-  {
-    background: #222;
-  }
-
-/*ËÑË÷½á¹ûÏÔÊ¾*/
-  div.RichText.ztext.SearchItem-meta.Highlight,
-span.RichText.ztext.CopyrightRichText-richText
-  {
-    color: #DDD !important;
-  }
 }
 
-@-moz-document url-prefix("https://www.zhihu"), url-prefix("https://zhuanlan.zhihu")
-{
+/*æ›´å¤šå›ç­”çš„åº•è‰²é«˜äº®*/
+.MoreAnswers .List-headerText {
+    background: #222;
+}
+
+/*è¯é¢˜åº•è‰²*/
+.Topic-bar {
+    background-color: #222;
+}
+
+/*è¯é¢˜å¹¿åœº*/
+div.topics-plaza{
+    background: #222;
+}
+
+/*é‚€è¯·å›ç­”é—®é¢˜åº•è‰²*/
+.Notification-white {
+    color: #ddd;
+    background: #444444;
+}
+
+/*æ¶ˆæ¯æé†’*/
+.PushNotifications-item {
+    color: #ccc;
+}
+
+/*å§”æ‰˜åˆ˜çœ‹å±±é‚€è¯·*/
+.AutoInviteItem-wrapper--desktop {
+    background: #212121;
+}
+h2.ContentItem-title {
+    color: #ccc;
+}
+
+/*åå¯¹*/
+.VoteDownReasonMenu-container {
+    background: black;
+}
+.VoteDownReasonMenu-reason {
+    background: #292929
+}
+
+/*å³ä¸‹è§’é‚£å•¥ç©æ„å„¿, æ”¶è—ã€é—®é¢˜ã€é‚€è¯·é¼ æ ‡æ»‘åŠ¨åº•è‰²*/
+.GlobalSideBar-navLink:hover,
+.GlobalSideBar-navNumber {
+    background: #333 !important;
+}
+
+/*å› ä½œè€…è®¾ç½®ï¼Œè¯„è®ºå·²å…³é—­*/
+.Comments-disabledText {
+    background: #333;
+}
+
+/*é˜…è¯»å…¨æ–‡ï¼Œæ˜¾ç¤ºå…¨éƒ¨*/
+.ContentItem-more,
+a.toggle-expand {
+    color: #98B3CB;
+}
+
+/*è¯é¢˜ï¼Œå°æ¡†æ¡†*/
+.Tag-content {
+    color: #aaaaaa
+}
+
+/*é—®é¢˜æ ‡é¢˜*/
+h2.zm-item-title a,
+h2.ContentItem-title a {
+    color: #D5CDCD !important;
+}
+
+/*é¦–é¡µå¤´éƒ¨ä¸Šçš„æé—®ã€æƒ³æ³•ã€æ–‡ç« ï¼Œå³ä¾§çš„ä¸€åˆ—ä¸œè¥¿*/
+.TopstoryHeader,
+div.Card {
+    background: #222;
+}
+
+/*æœç´¢ç»“æœæ˜¾ç¤º*/
+div.RichText.ztext.SearchItem-meta.Highlight,
+span.RichText.ztext.CopyrightRichText-richText {
+    color: #DDD !important;
+}
+
+/*æ¶ˆæ¯æé†’*/
+.PushNotifications-item a {
+    color: #659FE7 !important;
+}
+
+/*çƒ­æ¦œ*/
+section.HotItem {
+        background: #333 !important;
+}
+h2.HotItem-title {
+        color: #d5cdcd !important;
+}
+.HotItem-excerpt {
+        color: #BFBEBE !important;
+}
+
+/*æƒ³æ³•é¼“æŒ*/
+button.Button.ReactionButton.ContentItem-action {
+        background: #282828 !important;
+        border: 1px solid #3B6092 !important;
+}
+
+/*ç›¸å…³æŠ¥é“*/
+.QuestionRelatedCard {
+    background-color: #262626;
+}
+.QuestionRelatedCard-content{
+    color: #EBDFDF;
+}
+
+/*çƒ­æ¦œåˆ†ç±»*/
+.HotList {
+    background: #373535 !important;
+}
+.HotList-navItem {
+    background-color: #484040;
+}
+
+/*æœç´¢è¯é¢˜ç®€ä»‹*/
+.WikiBoxHeader-Introduction {
+    color: #ddd
+}
+
+/*ç›¸å…³æœç´¢*/
+.RelevantQuery h2 {
+    color: #fff !important
+}
+
+/*ä¸»é¡µæ›´å¤š*/
+.ProfileMain-menuToggler {
+    color: #dcdcdc;
+}
+
+/*åˆ›ä½œè€…ä¸­å¿ƒ*/
+.CreatorEntrance-title {
+    color: #dcdcdc;
+}
+}
+
+@-moz-document url-prefix("https://www.zhihu"), url-prefix("https://zhuanlan.zhihu") {
 /*
-** Ö÷Ò³Óë×¨À¸Í¨ÓÃ
+** ä¸»é¡µä¸ä¸“æ é€šç”¨
 */
 
-/* ·´À¡Óë»Øµ½¶¥²¿°´Å¥£¬Ä¿²âÊÇÍ¼Æ¬£¬ÎŞ·¨ĞŞ¸Ä£¬±Ï¾¹ÎÒÃ»¶ÔÓ¦µÄÍ¼Æ¬
-** ÓĞ´óÀĞÔ¸ÒâÌá¹©Ö§³ÖµÄ»°£¬»¶Ó­mailto : ASC_8384@foxmail.com
+/* åé¦ˆä¸å›åˆ°é¡¶éƒ¨æŒ‰é’®ï¼Œç›®æµ‹æ˜¯å›¾ç‰‡ï¼Œæ— æ³•ä¿®æ”¹ï¼Œæ¯•ç«Ÿæˆ‘æ²¡å¯¹åº”çš„å›¾ç‰‡
+** æœ‰å¤§ä½¬æ„¿æ„æä¾›æ”¯æŒçš„è¯ï¼Œæ¬¢è¿mailto : ASC_8384@foxmail.com
 **/
 
 /*
@@ -514,93 +500,107 @@ span.RichText.ztext.CopyrightRichText-richText
 }
 */
 
-/*ÒıÓÃ*/
-  .ztext code
-  {
+/*å¼•ç”¨*/
+.ztext code {
     background-color: #333;
     /*border-style: solid; 
-    border-width: 1px;*/;
-  }
+    border-width: 1px;*/
+}
 
-/*Í·Ïñ¼ÓÔØµ×É«*/
-  .HoverCard,
-.HoverCard-loading
-  {
+/*å¤´åƒåŠ è½½åº•è‰²*/
+.HoverCard,
+.HoverCard-loading {
     background: #222;
-  }
+}
 
-/*¼ÓÔØ×´Ì¬Ìõ*/
-  .PlaceHolder-mask
-  {
+/*åŠ è½½çŠ¶æ€æ¡*/
+.PlaceHolder-mask {
     background: #2c2c2c!important;
-  }
-
-  .PlaceHolder-inner
-  {
+}
+.PlaceHolder-inner {
     background: #2c2c2c !important;
-    color: #212121;
-  }
+    color: #212121
+}
 
-/* ÓÃ»§Ãû³ÈÉ« */
-  span.PushNotifications-actor,
+/* ç”¨æˆ·åæ©™è‰² */
+span.PushNotifications-actor,
 .HoverCard,
 .PushNotifications-actor,
 .UserLink,
 .UserLink-link,
 .author-link,
-.PushNotifications-item a:hover
-  {
+.PushNotifications-item a:hover {
     color: #ff8000 !important;
-  }
+}
 
-/* »Ø´ğÓëÎÄÕÂÀïµÄÀ¶É«Á´½Ó×Ö¸ÄÇ³À¶ */
-  .internal,
+/* å›ç­”ä¸æ–‡ç« é‡Œçš„è“è‰²é“¾æ¥å­—æ”¹æµ…è“ */
+.internal,
 .external,
 a.Button,
-.question_link
-  {
+.question_link {
     color: #90C1EB !important;
-  }
+}
 
-/*Á´½ÓÊó±êÖ¸Õë¸¡¶¯*/
-  a:hover,
-.Button:hover
-  {
+/*é“¾æ¥é¼ æ ‡æŒ‡é’ˆæµ®åŠ¨*/
+a:hover,
+.Button:hover {
     color: #6A9FCD !important;
-  }
+}
 
-/*´úÂë¿ò*/
-  pre,
-pre *
-  {
-    background: none #222!important;
-  }
+/*ä»£ç æ¡†*/
+pre,
+pre * {
+    background: none #222!important
+}
+pre {
+    border: 1px solid #57b1fd !important
+}
+pre .nt {
+    color: #46afe3 !important
+}
 
-  pre
-  {
-    border: 1px solid #57b1fd !important;
-  }
-
-  pre .nt
-  {
-    color: #46afe3 !important;
-  }
-
-/*µ¥¸öÎÊÌâ¿é*/
-  div.Card.TopstoryItem,
+/*å•ä¸ªé—®é¢˜å—*/
+div.Card.TopstoryItem,
 div.ContentItem-actions,
 div.List-item,
 div.QuestionAnswer-content,
-div.ContentItem-actions
-  {
+div.ContentItem-actions {
     background: #282828 !important;
-  }
+}
 
-/*¿¨Æ¬×´Á´½Ó*/
-  span.LinkCard-content
-  {
+/*å¡ç‰‡çŠ¶é“¾æ¥*/
+span.LinkCard-content {
     background: #455555 !important;
-  }
+}
+
+/*è®¤è¯æ‘˜è¦*/
+span.badge-summary {
+    color: #999 !important;
+}
+
+/*è¯„è®ºï¼Œå¸¦V2 çš„æ˜¯æ–°çš„ç‰ˆæœ¬*/
+.CommentList,CommentListV2,
+.CommentsV2-footer,
+.CommentEditorV2-inputUpload,
+.NestComment--child,
+.CommentMoreReplyButton,
+.CommentListV2-divider,
+.CommentListV2-header-divider,
+.CommentListV2-action,
+.CommentItemV2,
+.CommentTopbar-back,
+.Topbar,
+.CommentsV2-withPagination {
+    background: none #222!important;
+    color: #ddd!important;
+}
+.CommentList-dividerText,
+.CommentList-action{
+    background-color: #444!important;
+}
+.CommentsV2-openComment-divider {
+    background-color: #2C2C3C !important;
+}
 
 /*[[recommend]]*/
 
@@ -608,5 +608,5 @@ div.ContentItem-actions
 
 /*[[search]]*/
 
-/*[[hide]]*/;
+/*[[hide]]*/
 }
