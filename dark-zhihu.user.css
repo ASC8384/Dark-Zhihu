@@ -483,6 +483,11 @@ button.Button.ReactionButton.ContentItem-action {
 .CreatorEntrance-title {
     color: #dcdcdc;
 }
+
+/*已被删除回答&404*/
+.ErrorPage {
+    background: #232323 !important;
+}
 }
 
 @-moz-document url-prefix("https://www.zhihu"), url-prefix("https://zhuanlan.zhihu") {
