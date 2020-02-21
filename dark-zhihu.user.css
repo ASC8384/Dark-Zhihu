@@ -315,6 +315,33 @@ blockquote {
 li.ArticleItem {
     background: #282828;
 }
+
+/*写文章*/
+div.DraftEditor-root{
+	background-color: #282828 !important;
+}
+div.Dropzone{
+	background: #222;
+	margin-top: 00px !important;
+}
+div.WriteIndex-pageTitle{
+	color: #f2f2f2;
+}
+label.UploadPicture-wrapper{
+	background: #9b9b9b;
+}
+div.Editable-unstyled span{
+	background-color:black !important;
+}
+.Modal-footer {
+	background: #242424 !important;
+}
+button:hover{
+	background-color:#232323 !important;
+}
+.PublishPanel-popover{
+	background-color: #282828 !important;
+}
 }
 
 @-moz-document url-prefix("https://www.zhihu") {
