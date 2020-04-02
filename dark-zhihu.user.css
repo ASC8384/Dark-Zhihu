@@ -25,33 +25,32 @@
 .VoteButton,
 .LikeButton/* 新版点赞按钮 */
 {
-    background: #222!important;
-    border: 1px solid #3B6092 !important
+	background: #222!important;
+	border: 1px solid #3B6092 !important
 }
 .Button.is-active {
-    background: #3B6092 !important
+	background: #3B6092 !important
 }
 .AppHeader-navItem.is-active {
-    color: #CCC!important
+	color: #CCC!important
 }
 .HomeEntry-box,
 .editable {
-    border: 1px solid #fff;
+	border: 1px solid #fff;
 }
 img[eeimg="1"],
 .ColumnEnd-icon {
-    filter: invert(100%);
+	filter: invert(100%);
 }
 
 /* 公式图反色 */
-
 /* 深蓝底标签 */
 .QuestionTopic,
 .TopicTag,
 .Comments-Packup-Button,
 .CommentEditor-singleButton {
-    color: #fff!important;
-    background: #3B6092!important;
+	color: #fff!important;
+	background: #3B6092!important;
 }
 .entry-title,
 strong,
@@ -189,27 +188,27 @@ li.tab-nav.active .anchor,
 li.tab-nav:nth-child(1) > a:nth-child(1),
 a.active,
 .zm-side-nav-link:hover {
-    background: none #222!important;
-    color: #ddd!important;
+	background: none #222!important;
+	color: #ddd!important;
 }
 .badge-summary *,
 .AuthorInfo-badge,
 blockquote {
-    color: #aaa!important;
+	color: #aaa!important;
 }
 .modal-dialog-bg {
-    background: rgba(0, 0, 0, .8)!important;
+	background: rgba(0, 0, 0, .8)!important;
 }
 .zu-top-nav-live > * {
-    background: #222!important;
+	background: #222!important;
 }
 .name,
 .zm-item-answer-author-wrap a {
-    color: #ff8000!important;
+	color: #ff8000!important;
 }
 .zm-favo-list-item-title,
 .ng-binding {
-    color: #bbb!important;
+	color: #bbb!important;
 }
 .zg-btn-white.zu-button-more,
 .zu-autocomplete-row-search-link,
@@ -219,18 +218,18 @@ blockquote {
 #zh-question-suggest-title-content,
 .zu-question-suggest-topic-input.label-input-label,
 .ac-row {
-    background: none#222!important;
-    color: #bbb!important;
-    border-left-color: #000!important;
-    border-right-color: #222!important;
-    border-bottom-color: #000!important;
-    border-top-color: #000!important;
-    margin-top: 0px!important;
+	background: none#222!important;
+	color: #bbb!important;
+	border-left-color: #000!important;
+	border-right-color: #222!important;
+	border-bottom-color: #000!important;
+	border-top-color: #000!important;
+	margin-top: 0px!important;
 }
 .up.pressed,
 .down.pressed {
-    background: none#444!important;
-    color: #bbb!important;
+	background: none#444!important;
+	color: #bbb!important;
 }
 .zu-top-add-question,
 .content-wrap,
@@ -238,19 +237,19 @@ blockquote {
 .content,
 .modal-dialog.absolute-position,
 .modal-dialog-title.modal-dialog-title-draggable {
-    background: none#222!important;
-    color: #bbb!important;
+	background: none#222!important;
+	color: #bbb!important;
 }
 .ac-row.ac-active.active {
-    background-color: #222!important
+	background-color: #222!important
 }
 .zu-autocomplete-row-name,
 .zm-ac-link {
-    color: white!important
+	color: white!important
 }
 .global-header,
 .qr {
-    visibility: hidden!important;
+	visibility: hidden!important;
 }
 }
 
@@ -258,88 +257,87 @@ blockquote {
 /*
 ** 专栏
 */
-
 /*专栏阅读时的刘海*/
 .ColumnPageHeader-Wrapper {
-    background: #222;
+	background: #222;
 }
 
 /*专栏介绍*/
 .ColumnHeader {
-    background-color: #222;
-    color: #dddddd;
+	background-color: #222;
+	color: #dddddd;
 }
 
 /*最新文章*/
 .Column-ArticleList .SectionTitle {
-    color: #dddddd;
-    background-color: #222;
+	color: #dddddd;
+	background-color: #222;
 }
 
 /*文章简介*/
 .Column-ArticleList {
-    color: #dddddd;
-    background-color: #222;
+	color: #dddddd;
+	background-color: #222;
 }
 
 /*简介文字*/
 .RichContent-inner {
-    color: #838383
+	color: #838383
 }
 
 /*阅读全文*/
 .ArticleItem-Excerpt-more {
-    color: #98B3CB !important;
+	color: #98B3CB !important;
 }
 
 /*下一篇*/
 .NextArticle-Next,
 .NextArticle-Title {
-    color: #576176;
+	color: #576176;
 }
 
 /*专栏名*/
 .ColumnPageHeader-TitleColumn {
-    color: #DEEBEA;
+	color: #DEEBEA;
 }
 
 /* 推荐阅读 */
 .PostItem,
 .PostItem-Title,
 .PostItem-Summary {
-    color: #ddd!important;
-    background: #444!important;
+	color: #ddd!important;
+	background: #444!important;
 }
 
 /*预览*/
 li.ArticleItem {
-    background: #282828;
+	background: #282828;
 }
 
 /*写文章*/
-div.DraftEditor-root{
+div.DraftEditor-root {
 	background-color: #282828 !important;
 }
-div.Dropzone{
+div.Dropzone {
 	background: #222;
 	margin-top: 00px !important;
 }
-div.WriteIndex-pageTitle{
+div.WriteIndex-pageTitle {
 	color: #f2f2f2;
 }
-label.UploadPicture-wrapper{
+label.UploadPicture-wrapper {
 	background: #9b9b9b;
 }
-div.Editable-unstyled span{
-	background-color:black !important;
+div.Editable-unstyled span {
+	background-color: black !important;
 }
 .Modal-footer {
 	background: #242424 !important;
 }
-button:hover{
-	background-color:#232323 !important;
+button:hover {
+	background-color: #232323 !important;
 }
-.PublishPanel-popover{
+.PublishPanel-popover {
 	background-color: #282828 !important;
 }
 }
@@ -348,172 +346,178 @@ button:hover{
 /*
 ** 主页
 */
-
 /*页脚*/
-
 /*
 .Footer {
     display: none!important;
 }
 */
-
 /*相关推荐*/
-
 /*
 div.Card-header.RelatedCommodities-title,
 div.Card-section.RelatedCommodities-list {
     display: none !important;
 }
 */
-
 /*收藏、问题、邀请的高亮*/
 .GlobalSideBar-navNumber {
-    background: #222;
+	background: #222;
 }
 
 /*更多回答的底色高亮*/
 .MoreAnswers .List-headerText {
-    background: #222;
+	background: #222;
 }
 
 /*话题底色*/
 .Topic-bar {
-    background-color: #222;
+	background-color: #222;
 }
 
 /*话题广场*/
-div.topics-plaza{
-    background: #222;
+div.topics-plaza {
+	background: #222;
 }
 
 /*邀请回答问题底色*/
 .Notification-white {
-    color: #ddd;
-    background: #444444;
+	color: #ddd;
+	background: #444444;
 }
 
 /*消息提醒*/
 .PushNotifications-item {
-    color: #ccc;
+	color: #ccc;
 }
 
 /*委托刘看山邀请*/
 .AutoInviteItem-wrapper--desktop {
-    background: #212121;
+	background: #212121;
 }
 h2.ContentItem-title {
-    color: #ccc;
+	color: #ccc;
 }
 
 /*反对*/
 .VoteDownReasonMenu-container {
-    background: black;
+	background: black;
 }
 .VoteDownReasonMenu-reason {
-    background: #292929
+	background: #292929
 }
 
 /*右下角那啥玩意儿, 收藏、问题、邀请鼠标滑动底色*/
 .GlobalSideBar-navLink:hover,
 .GlobalSideBar-navNumber {
-    background: #333 !important;
+	background: #333 !important;
 }
 
 /*因作者设置，评论已关闭*/
 .Comments-disabledText {
-    background: #333;
+	background: #333;
 }
 
 /*阅读全文，显示全部*/
 .ContentItem-more,
 a.toggle-expand {
-    color: #98B3CB;
+	color: #98B3CB;
 }
 
 /*话题，小框框*/
 .Tag-content {
-    color: #aaaaaa
+	color: #aaaaaa
 }
 
 /*问题标题*/
 h2.zm-item-title a,
 h2.ContentItem-title a {
-    color: #D5CDCD !important;
+	color: #D5CDCD !important;
 }
 
 /*首页头部上的提问、想法、文章，右侧的一列东西*/
 .TopstoryHeader,
 div.Card {
-    background: #222;
+	background: #222;
 }
 
 /*搜索结果显示*/
 div.RichText.ztext.SearchItem-meta.Highlight,
 span.RichText.ztext.CopyrightRichText-richText {
-    color: #DDD !important;
+	color: #DDD !important;
 }
 
 /*消息提醒*/
 .PushNotifications-item a {
-    color: #659FE7 !important;
+	color: #659FE7 !important;
 }
 
 /*热榜*/
 section.HotItem {
-        background: #333 !important;
+	background: #333 !important;
 }
 h2.HotItem-title {
-        color: #d5cdcd !important;
+	color: #d5cdcd !important;
 }
 .HotItem-excerpt {
-        color: #BFBEBE !important;
+	color: #BFBEBE !important;
 }
 
 /*想法鼓掌*/
 button.Button.ReactionButton.ContentItem-action {
-        background: #282828 !important;
-        border: 1px solid #3B6092 !important;
+	background: #282828 !important;
+	border: 1px solid #3B6092 !important;
 }
 
 /*相关报道*/
 .QuestionRelatedCard {
-    background-color: #262626;
+	background-color: #262626;
 }
-.QuestionRelatedCard-content{
-    color: #EBDFDF;
+.QuestionRelatedCard-content {
+	color: #EBDFDF;
 }
 
 /*热榜分类*/
 .HotList {
-    background: #373535 !important;
+	background: #373535 !important;
 }
 .HotList-navItem {
-    background-color: #484040;
+	background-color: #484040;
 }
 
 /*搜索话题简介*/
 .WikiBoxHeader-Introduction {
-    color: #ddd
+	color: #ddd
 }
 
 /*相关搜索*/
 .RelevantQuery h2 {
-    color: #fff !important
+	color: #fff !important
 }
 
 /*主页更多*/
 .ProfileMain-menuToggler {
-    color: #dcdcdc;
+	color: #dcdcdc;
 }
 
 /*创作者中心*/
 .CreatorEntrance-title {
-    color: #dcdcdc;
+	color: #dcdcdc;
 }
 
 /*已被删除回答&404*/
 .ErrorPage {
-    background: #232323 !important;
+	background: #232323 !important;
+}
+
+/*搜索结果话题简介*/
+.SearchTopicHeader-Introduction {
+	color: #A8A0A0 !important;
+}
+.SearchTopicHeader-IntroTail {
+	background: #222 !important;
+}
+.SearchTopicHeader-IntroTail::before {
+	background-image: none !important;
 }
 }
 
@@ -521,37 +525,34 @@ button.Button.ReactionButton.ContentItem-action {
 /*
 ** 主页与专栏通用
 */
-
 /* 反馈与回到顶部按钮，目测是图片，无法修改，毕竟我没对应的图片
 ** 有大佬愿意提供支持的话，欢迎mailto : ASC_8384@foxmail.com
 **/
-
 /*
 .CornerButtons {
     display: none !important;
 }
 */
-
 /*引用*/
 .ztext code {
-    background-color: #333;
-    /*border-style: solid; 
+	background-color: #333;
+	/*border-style: solid; 
     border-width: 1px;*/
 }
 
 /*头像加载底色*/
 .HoverCard,
 .HoverCard-loading {
-    background: #222;
+	background: #222;
 }
 
 /*加载状态条*/
 .PlaceHolder-mask {
-    background: #2c2c2c!important;
+	background: #2c2c2c!important;
 }
 .PlaceHolder-inner {
-    background: #2c2c2c !important;
-    color: #212121
+	background: #2c2c2c !important;
+	color: #212121
 }
 
 /* 用户名橙色 */
@@ -562,7 +563,7 @@ span.PushNotifications-actor,
 .UserLink-link,
 .author-link,
 .PushNotifications-item a:hover {
-    color: #ff8000 !important;
+	color: #ff8000 !important;
 }
 
 /* 回答与文章里的蓝色链接字改浅蓝 */
@@ -570,25 +571,25 @@ span.PushNotifications-actor,
 .external,
 a.Button,
 .question_link {
-    color: #90C1EB !important;
+	color: #90C1EB !important;
 }
 
 /*链接鼠标指针浮动*/
 a:hover,
 .Button:hover {
-    color: #6A9FCD !important;
+	color: #6A9FCD !important;
 }
 
 /*代码框*/
 pre,
 pre * {
-    background: none #222!important
+	background: none #222!important
 }
 pre {
-    border: 1px solid #57b1fd !important
+	border: 1px solid #57b1fd !important
 }
 pre .nt {
-    color: #46afe3 !important
+	color: #46afe3 !important
 }
 
 /*单个问题块*/
@@ -597,21 +598,22 @@ div.ContentItem-actions,
 div.List-item,
 div.QuestionAnswer-content,
 div.ContentItem-actions {
-    background: #282828 !important;
+	background: #282828 !important;
 }
 
 /*卡片状链接*/
 span.LinkCard-content {
-    background: #455555 !important;
+	background: #455555 !important;
 }
 
 /*认证摘要*/
 span.badge-summary {
-    color: #999 !important;
+	color: #999 !important;
 }
 
 /*评论，带V2 的是新的版本*/
-.CommentList,CommentListV2,
+.CommentList,
+CommentListV2,
 .CommentsV2-footer,
 .CommentEditorV2-inputUpload,
 .NestComment--child,
@@ -623,22 +625,31 @@ span.badge-summary {
 .CommentTopbar-back,
 .Topbar,
 .CommentsV2-withPagination {
-    background: none #222!important;
-    color: #ddd!important;
+	background: none #222!important;
+	color: #ddd!important;
 }
 .CommentList-dividerText,
-.CommentList-action{
-    background-color: #444!important;
+.CommentList-action {
+	background-color: #444!important;
 }
 .CommentsV2-openComment-divider {
-    background-color: #2C2C3C !important;
+	background-color: #2C2C3C !important;
+}
+
+/* 去评论框白色 */
+.InputLike {
+	border-radius: 0px !important;
+	background-color: #222 !important;
+}
+
+/* 表情 */
+.Popover-content {
+	background: #333;
+	border: 1px solid #ebebeb;
 }
 
 /*[[recommend]]*/
-
 /*[[img]]*/
-
 /*[[search]]*/
-
 /*[[hide]]*/
 }
