@@ -519,6 +519,11 @@ button.Button.ReactionButton.ContentItem-action {
 .SearchTopicHeader-IntroTail::before {
 	background-image: none !important;
 }
+
+/*我的收藏*/
+.SelfCollectionItem-title, .FollowingCollectionItem-title{
+	color: #a0a0a0 !important;
+}
 }
 
 @-moz-document url-prefix("https://www.zhihu"), url-prefix("https://zhuanlan.zhihu") {
