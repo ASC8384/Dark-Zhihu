@@ -340,6 +340,17 @@ button:hover {
 .PublishPanel-popover {
 	background-color: #282828 !important;
 }
+
+/*新版专栏*/
+.Card{
+	background-color: #2d2c2c  !important
+}
+.css-1bnklpv{
+	color: #a4a4a4 !important;
+}
+.ContentItem-title{
+	color: #a4a4a4 !important
+}
 }
 
 @-moz-document url-prefix("https://www.zhihu") {
