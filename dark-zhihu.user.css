@@ -535,6 +535,24 @@ button.Button.ReactionButton.ContentItem-action {
 .SelfCollectionItem-title, .FollowingCollectionItem-title{
 	color: #a0a0a0 !important;
 }
+
+/*搜索界面删除电子书*/
+.KfeCollection-PcCollegeCard-wrapper{
+	display: none;
+}
+
+/*搜索界面正在热议*/
+.WikiBoxHotList-Title, .WikiBoxHotList-Item{
+	color: #A8A0A0 !important;
+}
+
+/*我的圈子*/
+.ClubSliderList{
+	background-color: #222222;
+}
+.ClubSliderList-name{
+	color: #8590a6;
+}
 }
 
 @-moz-document url-prefix("https://www.zhihu"), url-prefix("https://zhuanlan.zhihu") {
